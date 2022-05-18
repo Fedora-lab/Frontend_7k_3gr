@@ -1,5 +1,7 @@
 
 .row{
+    display: flex;
+    flex-direction: row;
     height: 100px;
 }
 
@@ -21,12 +23,12 @@
     height: 110px;
 }
 
-@media only screen and (min-width: 576px){
-    .row{
-        display: flex;
-        flex-direction: column;
-        height: 350px;
+@media all and (max-width: 576px) {
+    .row {
+      display: flex;
+      flex-direction: column;
+      height: 100px;
     }
-}
+  }
     
     
